@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerOrders\CustomerOrders.csproj" />
+    <ProjectReference Include="..\SuppliersOrders\SupplierOrders.csproj" />
+  </ItemGroup>
+
+</Project>
